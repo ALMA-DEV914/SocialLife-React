@@ -1,18 +1,7 @@
-import TopBar from './components/topbar/Topbar';
-import Feed from './components/feed/Feed';
-import Sidebar from './components/sidebar/Sidebar';
-import Rightbar from './components/rightbar/Rightbar';
-
+import Profile from "./pages/profile/Profile";
 function App() {
   return (
-    <>
-   <TopBar/>
-   <div className='homeConatiner'>
-   <Sidebar/>
-   <Feed/>
-   <Rightbar/>
-   </div>
-   </>
+     <Profile/>
   );
 }
 

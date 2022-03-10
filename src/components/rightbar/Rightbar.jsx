@@ -3,6 +3,7 @@ import { Users } from "../../dummyData";
 import Online from "../online/Online";
 
 export default function Rightbar({ profile }) {
+    
   const HomeRightbar = () => {
     return (
       <>
@@ -12,7 +13,7 @@ export default function Rightbar({ profile }) {
             <b>Peter Braun</b> and <b>3 other friends</b> have a birhday today.
           </span>
         </div>
-        <img className="rightbarAd" src="assets/ad.png" alt="" />
+        <img className="rightbarAd" src="assets/ad.jpg" alt="" />
         <h4 className="rightbarTitle">Online Friends</h4>
         <ul className="rightbarFriendList">
           {Users.map((u) => (
@@ -34,7 +35,7 @@ export default function Rightbar({ profile }) {
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">From:</span>
-            <span className="rightbarInfoValue">Madrid</span>
+            <span className="rightbarInfoValue">Philippines</span>
           </div>
           <div className="rightbarInfoItem">
             <span className="rightbarInfoKey">Relationship:</span>
@@ -45,47 +46,47 @@ export default function Rightbar({ profile }) {
         <div className="rightbarFollowings">
           <div className="rightbarFollowing">
             <img
-              src="assets/person/1.jpeg"
+              src="assets/profile/1.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Joane Federicos</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/2.jpeg"
+              src="assets/profile/2.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Vangie Delos Santos</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/3.jpeg"
+              src="assets/profile/3.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Ellen santos</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/4.jpeg"
+              src="assets/profile/9.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Diane Garcia</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/5.jpeg"
+              src="assets/profile/5.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
-            <span className="rightbarFollowingName">John Carter</span>
+            <span className="rightbarFollowingName">Jerome Castillo</span>
           </div>
           <div className="rightbarFollowing">
             <img
-              src="assets/person/6.jpeg"
+              src="assets/profile/6.jpeg"
               alt=""
               className="rightbarFollowingImg"
             />
