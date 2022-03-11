@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+## Description
+
+This is the front End or UI of a social media application built with React.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
