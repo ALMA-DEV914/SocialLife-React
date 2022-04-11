@@ -1,5 +1,3 @@
-import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
-const api = require("../apiCalls")
 
 export const LoginStart = (userCredentials) => ({
     type: "LOGIN_START",

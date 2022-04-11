@@ -7,15 +7,23 @@ form{
 }
 .comments-container{
     width: 100%;
-    padding: 15px;
+    
 }
 .comment-form-button{
-    padding: 8px;
     background: rgb(20, 140, 78);
     color: white;
 }
+.comment-actions{
+    display: flex;
+}
 .comment-action{
    padding: 8px;
+}
+.comment-action button{
+    display:inline-block;
+}
+.comment-form-cancel-button{
+    background-color: rgb(170, 40, 51);
 }
 
 

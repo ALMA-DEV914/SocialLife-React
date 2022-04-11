@@ -58,7 +58,7 @@ const Comment = ({
                 setActiveComment({ id: comment.id, type: "replying" })
               }
             >
-              Reply
+            <button> Reply</button>
             </div>
           )}
           {canEdit && (
@@ -68,7 +68,7 @@ const Comment = ({
                 setActiveComment({ id: comment.id, type: "editing" })
               }
             >
-              Edit
+            <button> Edit</button>
             </div>
           )}
           {canDelete && (
@@ -76,7 +76,7 @@ const Comment = ({
               className="comment-action"
               onClick={() => deleteComment(comment.id)}
             >
-              Delete
+            <button className="button-delete">Delete</button>
             </div>
           )}
         </div>
