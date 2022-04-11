@@ -1,0 +1,21 @@
+form{
+    display: flex;
+    
+}
+.comment-form-textarea{
+    width: 90%;
+}
+.comments-container{
+    width: 100%;
+    padding: 15px;
+}
+.comment-form-button{
+    padding: 8px;
+    background: rgb(20, 140, 78);
+    color: white;
+}
+.comment-action{
+   padding: 8px;
+}
+
+

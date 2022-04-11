@@ -6,7 +6,11 @@
     align-items: center;
     justify-content: center;
   }
-  
+  .loginbtn{
+    color: #f0f2f5;
+    text-decoration: none;
+    
+  }
   .loginWrapper {
     width: 70%;
     height: 70%;
