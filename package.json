@@ -42,9 +42,7 @@
       "last 1 safari version"
     ]
   },
-  "proxy": {
-    "/auth/google": {
-      "target": "http://127.0.0.1:5000/api/"
-    }
-  }
+  "proxy":  "http://127.0.0.1:5000/api/"
+    
+  
 }
